@@ -1,0 +1,359 @@
+.maintag .tag4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+}
+.tag4 .todo{
+    width: 23%;
+    padding: .4rem;
+}
+.todo .card{
+    display: flex;
+    flex-direction: column;
+    padding: .8rem;
+    border-radius: .9rem;
+    border: 2px solid rgb(182, 179, 179);
+}
+.todo .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.title .icons{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.title .icons img{
+    margin-right: .4rem;
+    width: 20%;
+}
+.todo .card .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 1.2rem;
+}
+.todo .card .header i{
+    width: 20%;
+}
+.todo .card .header p{
+    width: 78%;
+    color: rgb(36, 35, 35);
+    text-overflow: ellipsis; /* enables ellipsis */
+    white-space: nowrap; /* keeps the text in a single line */
+    overflow: hidden; /* keeps the element from overflowing its parent */
+}
+.todo .card .profile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+}
+.todo.card .profile .avatar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.todo .card .profile .avatar img{
+    width: 50%;
+    border-radius: 2rem;
+    margin-right: .5rem;
+    border: 2px solid gray;
+}
+.todo .card .profile .icon{
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+}
+.todo .addTask{
+    width: 100%;
+    height: 8vh;
+    margin-top: .6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: .9rem;
+    border: dotted;
+    background: rgb(232, 230, 230);
+}
+.todo .addTask input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 45%;
+    background: transparent;
+}
+.todo .addTask .add{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+.addTask .add img{
+    width: 35%;
+    height: 3vh;
+}
+
+.tag4 .doing{
+    width: 23%;
+    padding: .4rem;
+}
+.doing .card{
+    display: flex;
+    flex-direction: column;
+    padding: .8rem;
+    border-radius: .9rem;
+    border: 2px solid rgb(182, 179, 179);
+}
+.doing .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.doing .title .icons{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.title .icons img{
+    margin-right: .4rem;
+    width: 20%;
+}
+.doing .card .header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    margin-bottom: 1.2rem;
+}
+.doing .card .header i{
+    width: 10%;
+}
+.doing .card .header p{
+    width: 80%;
+    color: rgb(36, 35, 35);
+    text-overflow: ellipsis; /* enables ellipsis */
+    white-space: nowrap; /* keeps the text in a single line */
+    overflow: hidden; /* keeps the element from overflowing its parent */
+}
+.doing .card .btns{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: .9rem; 
+}
+.doing .card .btns button{
+    padding: .6rem;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    margin-right: .8rem;
+}
+.doing .card .btns .risk{
+    background: orange;
+}
+.doing .card .btns .medium{
+    background: yellow;
+}
+.doing .card .profile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+}
+.doing .card .profile .avatar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.doing .card .profile .avatar img{
+    width: 13%;
+    border-radius: 2rem;
+    margin-right: .5rem;
+    border: 2px solid gray;
+}
+.doing .card .profile .avatar span{
+    font-size: .8rem;
+}
+.doing .addTask{
+    width: 100%;
+    height: 8vh;
+    margin-top: .6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: .9rem;
+    border: dotted;
+    background: rgb(232, 230, 230);
+}
+.doing .addTask input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 45%;
+    background: transparent;
+}
+.doing .addTask .add{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+.addTask .add img{
+    width: 35%;
+    height: 3vh;
+}
+
+.tag4 .done{
+    width: 23%;
+    padding: .4rem;
+}
+.done .card{
+    display: flex;
+    flex-direction: column;
+    padding: .8rem;
+    border-radius: .9rem;
+    border: 2px solid rgb(182, 179, 179);
+}
+.done .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.done .title .icons{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.title .icons img{
+    margin-right: .4rem;
+    width: 20%;
+}
+.done .card .header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    margin-bottom: 1.2rem;
+}
+.done .card .header i{
+    width: 10%;
+}
+.done .card .header p{
+    width: 80%;
+    color: rgb(36, 35, 35);
+    text-overflow: ellipsis; /* enables ellipsis */
+    white-space: nowrap; /* keeps the text in a single line */
+    overflow: hidden; /* keeps the element from overflowing its parent */
+}
+.done .card .btns{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: .9rem; 
+}
+.done .card .btns button{
+    padding: .6rem;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    margin-right: .8rem;
+}
+.done .card .btns .on{
+    background: rgb(27, 217, 173);
+}
+.done .card .btns .low{
+    background: rgb(53, 153, 229);
+}
+.done .card .profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.done .card .profile .avatar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.done .card .profile .avatar img{
+    width: 13%;
+    border-radius: 2rem;
+    margin-right: .5rem;
+    border: 2px solid gray;
+}
+.done .card .profile .avatar span{
+    font-size: .8rem;
+}
+.done .addTask{
+    width: 100%;
+    height: 8vh;
+    margin-top: .6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: .9rem;
+    border: dotted;
+    background: rgb(232, 230, 230);
+}
+.done .addTask input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 45%;
+    background: transparent;
+}
+.done .addTask .add{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+.addTask .add img{
+    width: 35%;
+    height: 3vh;
+}
+
+.tag4 .untitled{
+    width: 23%;
+    padding: .4rem;
+}
+.untitled .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+.untitled .addTask{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    border-radius: .9rem;
+    background: rgb(232, 230, 230);
+}
+.untitled .addTask input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 45%;
+    background: transparent;
+}
+.untitled .addTask .add{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+.addTask .add img{
+    width: 35%;
+    height: 3vh;
+}

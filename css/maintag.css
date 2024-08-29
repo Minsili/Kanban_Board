@@ -1,0 +1,106 @@
+.container .maintag{
+    width: 80%;
+    padding: 1.0rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.maintag .tag1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: .4rem;
+}
+.tag1 .menu{
+    width: 6%;
+}
+.tag1 .col1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.col1 .row1{
+    width: 100%;
+    display: flex;
+}
+.col1 .row1 p{
+    width: 55%;
+    font-weight: 600;
+    margin-right: .6rem;
+}
+.col1 .row1 img{
+    width: 6%;
+    margin-right: .6rem;
+}
+.col1 .row2{
+    display: flex;
+}
+.col1 .row2 p{
+    color: gray;
+}
+.tag1 .col2{
+    display: flex;
+    width: 18%;
+    border: 2px solid rgb(174, 174, 174);
+}
+.tag1 .col3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9%;
+    border-radius: .9rem;
+    border: 2px solid rgb(174, 174, 174);
+}
+.tag1 .col3 i{
+    width: 8%;
+}
+.tag1 .col3 input{
+    width: 50%;
+    font-size: .8rem;
+    color: gray;
+    border: none;
+    outline: none;
+}
+.tag1 .col4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14%;
+    border-radius: 1.8rem;
+    border: 2px solid rgb(174, 174, 174);
+}
+.tag1 .col4 i{
+    width: 15%;
+}
+.tag1 .col4 input{
+    width: 60%;
+    font-size: .8rem;
+    color: gray;
+    border: none;
+    outline: none;
+}
+.tag1 .col5{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 6%;
+    border-radius: .8rem;
+}
+.tag1 .col5 input{
+    width: 90%;
+    height: 90%;
+    border-radius: .8rem;
+    color: white;
+    font-size: 2rem;
+    background: linear-gradient(rgb(216, 141, 2), rgb(240, 50, 82));
+}
+.tag1 .col6{
+    display: flex;
+    justify-content: center;
+    width: 5%;
+}
+.tag1 .col6 img{
+    width: 85%;
+    height: 85%;
+    border-radius: 5rem;
+    border: 2px solid rgb(174, 174, 174);
+}

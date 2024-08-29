@@ -1,0 +1,23 @@
+.color{
+    margin: .5rem;
+    width: 4%;
+    height: 50%;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: rgb(242, 36, 71);
+}
+.three{
+    background-color: rgb(72, 3, 67);
+}
+.four{
+    background-color: rgb(242, 36, 71);
+}
+.five{
+    background-color: rgb(223, 119, 16);
+}
+.six{
+    background-color: rgb(5, 144, 26);
+}
